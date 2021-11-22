@@ -1,0 +1,37 @@
+﻿body {
+    background-color: #1d1e22;
+    color: #e6e6e6;
+    font-family: cursive;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px 20px 20px;
+    border-radius: 5px;
+    margin: 10% auto 0;
+    box-shadow: 0 0 5px #595b62;
+    background-color: #24252a;
+}
+
+p b {
+    text-decoration: underline;
+}
+
+.colorBox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    .colorBox input {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+        .colorBox input::-webkit-color-swatch {
+            border: none;
+        }

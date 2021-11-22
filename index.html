@@ -1,0 +1,28 @@
+﻿<html>
+<head>
+    <title>Input type color - events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="colorPicker.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Tracking Color Changes</h3>
+
+        <p id="firstP">
+            The <b>input</b> event is fired on the <code>&lt;input&gt;</code> element every time the color changes.
+            <br />
+            If you make changes in the color picker, this paragraph's color changes.
+        </p>
+        <p>
+            The <b>change</b> event is fired when the user dismisses the color picker.
+            <br />
+            This paragraph colors change when you close the color picker.
+        </p>
+        <div class="colorBox">
+            <label for="colorPicker">Pick a color:</label>
+            <input type="color" value="#35df90" id="colorPicker" name="colorPicker">
+        </div>
+    </div>
+</body>
+</html>
